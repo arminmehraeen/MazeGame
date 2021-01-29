@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:textDirection="ltr"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#24282E"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ss"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="بازی مسیر یابی"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/ss"
+        android:text="شروع"
+        android:textColor="@color/colorAccent"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/show"
+            android:fontFamily="@font/ss"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:text="بازی رو شروع کن"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/joo1"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/ss"
+            android:text="جان 1"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/joo2"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/ss"
+            android:text="جان 2"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/joo3"
+            android:layout_marginLeft="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/ss"
+            android:text="جان 3"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/btn_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="☐"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="بالا"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="راست"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="چپ"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/ss"
+                android:text="پایین"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/ss"
+            android:text="با اهدای یک جون برگرد به چند راهی"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_win"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/ss"
+            android:text="بازی دوباره"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
